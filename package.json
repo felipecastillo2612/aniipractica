@@ -1,0 +1,38 @@
+{
+  "name": "ani2",
+  "displayName": "ani2",
+  "description": "ani2",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ani2",
+        "aliases": [
+          "ani2",
+          "ani2"
+        ],
+        "extensions": [
+          ".ani2"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ani2",
+        "scopeName": "source.ani2",
+        "path": "./syntaxes/ani2.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vscode-languageserver": "^8.1.0",
+    "vscode-languageserver-textdocument": "^1.0.8"
+  }
+}
